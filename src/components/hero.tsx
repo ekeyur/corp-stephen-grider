@@ -1,15 +1,13 @@
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
 
-export default function Hero({
-  imgData,
-  imgAlt,
-  title,
-}: Readonly<{
+interface Props {
   title: string;
   imgAlt: string;
   imgData: StaticImageData;
-}>) {
+}
+
+export default function Hero({ imgData, imgAlt, title }: Readonly<Props>) {
   return (
     <div className="relative h-screen">
       <div className="absolute -z-10 inset-0">
