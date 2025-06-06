@@ -20,3 +20,5 @@ export default function Hero({ imgData, imgAlt, title }: Readonly<Props>) {
     </div>
   );
 }
+
+// Just a comment
