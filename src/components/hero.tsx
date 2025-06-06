@@ -22,3 +22,5 @@ export default function Hero({
     </div>
   );
 }
+
+//this is just a comment
